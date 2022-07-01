@@ -6,30 +6,10 @@ from numpy import cumsum
 
 """
 solution.py
-
-Template file for you to implement your solution to Assignment 3.
-
-You must implement the following method stubs, which will be invoked by the simulator during 
-testing:
-    __init__(game_env)
-    run_training()
-    select_action()
-    
-To ensure compatibility with the autograder, please avoid using try-except blocks for Exception 
-or OSError exception types. Try-except blocks with concrete exception types other than OSError
-(e.g. try: ... except ValueError) are allowed.
-
-COMP3702 2021 Assignment 3 Support Code
-
-Last updated by njc 10/10/21
-
-REFERENCES:
-- Tutorial 9 Solution Code (For Q-Learning Implementation)
 """
 
 
 def dict_argmax(d):
-    """ Returns argmax from dictionary. FROM TUTORIAL 9 SOLUTION CODE. """
     return max(d, key=d.get)
 
 
