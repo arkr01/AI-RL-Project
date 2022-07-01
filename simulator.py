@@ -37,10 +37,6 @@ and does not exceed the time limit, simulator will always produce the a consiste
 The simulator will automatically terminate your agent if it runs over 2x the allowed time limit for any step (on Unix
 platforms only - not available on Windows). This feature can be disabled for debugging purposes by setting
 DEBUG_MODE = True above.
-
-COMP3702 2021 Assignment 3 Support Code
-
-Last updated by njc 25/10/21
 """
 
 
