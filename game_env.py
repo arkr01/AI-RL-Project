@@ -5,12 +5,7 @@ from game_state import GameState
 """
 game_env.py
 
-This file contains a class representing an Untitled Dragon Game environment. You should make use of this class in your
-solver.
-
-COMP3702 2021 Assignment 3 Support Code
-
-Last updated by njc 25/10/21
+This file contains a class representing an Untitled Dragon Game environment.
 """
 
 
@@ -22,11 +17,6 @@ class GameEnv:
 
     The grid is indexed top to bottom, left to right (i.e. the top left corner has coordinates (0, 0) and the bottom
     right corner has coordinates (n_rows-1, n_cols-1)).
-
-    You may use and modify this class however you want.
-
-    *** Note that evaluation on GradeScope will use an unmodified GameEnv instance as a simulator - unlike previous
-    assignments, this rule will be in effect for assignment 3 ***
     """
 
     # input file symbols
